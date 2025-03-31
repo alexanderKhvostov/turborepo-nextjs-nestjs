@@ -1,6 +1,9 @@
 /** @type {import("prettier").Config} */
-import { prettierBaseConfig } from '@repo/eslint-config/prettier-base';
 
 export default {
-  ...prettierBaseConfig,
+  singleQuote: true,
+  printWidth: 120,
+  tabWidth: 2,
+  useTabs: false,
+  trailingComma: 'all',
 };

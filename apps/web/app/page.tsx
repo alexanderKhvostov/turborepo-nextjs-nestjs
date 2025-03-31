@@ -84,14 +84,7 @@ export default function Page({ searchParams }: PageProps) {
             target="_blank"
           >
             By{' '}
-            <Image
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              height={24}
-              priority
-              src="/vercel.svg"
-              width={100}
-            />
+            <Image alt="Vercel Logo" className={styles.vercelLogo} height={24} priority src="/vercel.svg" width={100} />
           </a>
         </div>
       </div>
@@ -104,13 +97,7 @@ export default function Page({ searchParams }: PageProps) {
         <div className={styles.heroContent}>
           <div className={styles.logos}>
             <div className={styles.circles}>
-              <Image
-                alt=""
-                height={614}
-                src="circles.svg"
-                width={614}
-                style={{ pointerEvents: 'none' }}
-              />
+              <Image alt="" height={614} src="circles.svg" width={614} style={{ pointerEvents: 'none' }} />
             </div>
             <div className={styles.logoGradientContainer}>
               <Gradient className={styles.logoGradient} conic small />
@@ -158,11 +145,7 @@ export default function Page({ searchParams }: PageProps) {
        *
        * @see https://nextjs.org/docs/app/building-your-application/testing/jest
        */}
-      {forTest ? (
-        <LinksSectionForTest />
-      ) : (
-        <Suspense fallback={'Loading links...'}>{<LinksSection />}</Suspense>
-      )}
+      {forTest ? <LinksSectionForTest /> : <Suspense fallback={'Loading links...'}>{<LinksSection />}</Suspense>}
     </main>
   );
 }
