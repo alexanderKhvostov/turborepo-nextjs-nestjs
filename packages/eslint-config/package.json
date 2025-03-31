@@ -1,0 +1,39 @@
+{
+  "name": "@repo/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./base": "./base.js",
+    "./next": "./next.js",
+    "./nest": "./nest.js",
+    "./prettier-base": "./prettier-base.js",
+    "./library": "./library.js",
+    "./library.cjs": "./library.cjs",
+    "./react-internal": "./react-internal.js"
+  },
+  "files": [
+    "index.js",
+    "base.js",
+    "library.js",
+    "library.cjs",
+    "nest.js",
+    "next.js",
+    "prettier-base.js",
+    "react-internal.js"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "@vercel/style-guide": "^6.0.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-config-turbo": "^2.4.4",
+    "eslint-import-resolver-typescript": "^4.3.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-prettier": "^5.2.5",
+    "typescript": "5.8.2"
+  }
+}
