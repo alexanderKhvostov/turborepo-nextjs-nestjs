@@ -10,14 +10,12 @@
     "./next": "./next.js",
     "./nest": "./nest.js",
     "./prettier-base": "./prettier-base.js",
-    "./library": "./library.js",
     "./library.cjs": "./library.cjs",
     "./react-internal": "./react-internal.js"
   },
   "files": [
     "index.js",
     "base.js",
-    "library.js",
     "library.cjs",
     "nest.js",
     "next.js",
